@@ -36,6 +36,7 @@ print(adwentures_of_tom_sawer)
 """ Зробіть так, щоб у тексті було не більше одного пробілу між словами.
 """
 import re
+adwentures_of_tom_sawer
 
 result = re.sub(r'\s+', ' ', adwentures_of_tom_sawer)
 print(result)
