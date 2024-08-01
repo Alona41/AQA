@@ -35,8 +35,11 @@ print(adwentures_of_tom_sawer)
 # task 03 ==
 """ Зробіть так, щоб у тексті було не більше одного пробілу між словами.
 """
-adwentures_of_tom_sawer = adwentures_of_tom_sawer.replace(" ", "   ")
-print(adwentures_of_tom_sawer)
+import re
+
+result = re.sub(r'\s+', ' ', adwentures_of_tom_sawer)
+print(result)
+
 
 
 # task 04
