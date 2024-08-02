@@ -88,3 +88,5 @@ sorted_cars = sorted(filtered_cars, key=lambda x: x[1][4])
 
 for car in sorted_cars[:5]:
     print(car)
+
+print("It`s done")
