@@ -1,16 +1,25 @@
-#task1
+# task 1
 """ Задача - надрукувати табличку множення на задане число, але
 лише до максимального значення для добутку - 25.
 Код майже готовий, треба знайти помилки та випраавити\доповнити.
 """
 def multiplication_table(number):
+# Initialize the appropriate variable
     multiplier = 1
+
+# Complete the while loop condition.
     while multiplier > 0:
         result = number * multiplier
-        if result >= 25:
+
+# десь тут помила, а може не одна
+        if  result >= 25:
             break
-        else:
-            print(str(number) + "x" + str(multiplier) + "=" + str(result))
+
+        else:   # Enter the action to take if the result is greater than 25
+             print(str(number) + "x" + str(multiplier) + "=" + str(result))
+
+
+# Increment the appropriate variable
         multiplier += 1
 
 
@@ -26,8 +35,8 @@ multiplication_table(3)
 # task 2
 """  Написати функцію, яка обчислює суму двох чисел."""
 def sum_number(numb_1,numd_2):
-        numb = numb_1 + numd_2
-        print(numb)
+    numb = numb_1 + numd_2
+    print(numb)
 sum_number(3,5)
 
 
@@ -129,8 +138,7 @@ def number_of_letters(text, letter):
 
 
 text_1 = """ Polly,Molly and Dolly are three little girls. They live with their mother in a little house.
-        Every day the girls' mother  works very much. But Polly, Molly and Dolly do not help her. 
-        They do not like to work."""
+        Every day the girls' mother  works very much. But Polly, Molly and Dolly do not help her. They do not like to work."""
 letter_2 = "l"
 number_of_letters(text_1, letter_2)
 
