@@ -48,3 +48,7 @@ if __name__ == '__main__':
         filename = uploaded_url.split('/')[-1]  # Отримати ім'я файлу з URL
         get_image_url(filename)
         delete_image(filename)
+
+
+
+
