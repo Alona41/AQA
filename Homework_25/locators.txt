@@ -100,3 +100,4 @@ button[data-action*='confirm']
 input[aria-labelledby='label-id']
 
 a:contains("Logout")
+
