@@ -1,0 +1,102 @@
+1. XPath локатори
+
+//button[text()='Login']
+
+//input[@name='username']
+
+//input[@type='password']
+
+//a[contains(@href, 'home')]
+
+//button[contains(text(), 'Submit')]
+
+//h1
+
+//h1[@class='header-title']
+
+//input[@id='email']
+
+//div[contains(@class, 'container') and contains(@class, 'main')]
+
+//ul/li[1]/a
+
+//div[@class='item'][2]
+
+//button[@aria-label='Close']
+
+//h2[text()='Welcome']
+
+//div[@data-testid='user-info']
+
+//label[text()='I agree']/preceding-sibling::input[@type='checkbox']
+
+//a[span[@class='icon']]
+
+//button[starts-with(@data-action, 'delete')]
+
+//div[@class='text-container']//p
+
+//table//th[text()='Name']
+
+//select[@name='options']
+
+//div[button]
+
+//div[@role='navigation']
+
+//input[@placeholder='Search']
+
+//ul/li[last()]
+
+//a[text()='Logout']
+2. CSS локатори
+
+input[name='username']
+
+input[type='password']
+
+button:contains("Login")
+
+.container.main
+
+ul > li:first-child
+
+h1.header-title
+
+button[aria-label='Close']
+
+[data-testid='user-info']
+
+input[type='checkbox'] + label
+
+button[data-action^='delete']
+
+.text-container p
+
+select[name='options']
+
+h2:contains("Welcome")
+
+ul > li:last-child
+
+input[placeholder='Search']
+
+div[role='navigation']
+
+div > button
+
+table th:contains("Name")
+
+a[href*='home']
+
+.container.main .section
+
+button[data-action*='confirm']
+
+.main-content h1
+
+[id^='user']
+
+input[aria-labelledby='label-id']
+
+a:contains("Logout")
